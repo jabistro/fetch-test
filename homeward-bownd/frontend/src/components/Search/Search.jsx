@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { fetchBreeds, searchDogs, fetchDogDetails, findMatch } from '../../services/api';
-import DogCard from './DogCard';
+import DogCard from './DogCard/DogCard';
 import BreedFilter from './Filters/BreedFilter';
 import SortControls from './Filters/SortControls';
 import './Search.css';
